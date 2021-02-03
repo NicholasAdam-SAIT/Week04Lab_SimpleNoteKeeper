@@ -12,6 +12,12 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Simple Note Keeper</h1>
+        <h2>View Note</h2>
+        <h3>Title: <p>${title}</p></h3>
+        <br>
+        <h3>Contents: <p>${contents}</p></h3>
+        <br>
+        <a href ="/Week04Lab_SimpleNoteKeeper/WEB-INF/editnote.jsp?edit">Edit</a>
     </body>
 </html>
