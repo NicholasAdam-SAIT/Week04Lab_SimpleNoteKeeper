@@ -14,10 +14,10 @@
     <body>
         <h1>Simple Note Keeper</h1>
         <h2>View Note</h2>
-        <h3>Title: <p>${title}</p></h3>
+        <h3>Title: </h3><p>${title}</p>
         <br>
-        <h3>Contents: <p>${contents}</p></h3>
+        <h3>Contents: </h3><p>${contents}</p>
         <br>
-        <a href ="/Week04Lab_SimpleNoteKeeper/WEB-INF/editnote.jsp?edit">Edit</a>
+        <a href ="note?edit"> ">Edit</a>
     </body>
 </html>
